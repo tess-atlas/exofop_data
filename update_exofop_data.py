@@ -71,7 +71,7 @@ def update_cached_exofop_data(cached_fn: str) -> None:
     new_lk_dict = get_tic_to_lk_dict(new_table)
 
     new_lk_dict.update(cached_lk_dict)
-    update_lk_status_in_table(new_table, new_lk_dict)
+    update_lk_status_in_table(new_table, new_lk_dict, cached_fn)
 
     nan_lk_dict = {tic_id: lk for tic_id, lk in new_lk_dict.items() if np.isnan(lk)}
     num_nan = len(nan_lk_dict)
