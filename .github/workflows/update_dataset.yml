@@ -1,8 +1,8 @@
 name: Update ExoFOP data
 on:
-  push:
-    branches:
-      - main 
+  workflow_dispatch: # Triggered manually
+  schedule:
+    - cron: "0 0 * * 0" # Scheduled to run every Sunday at midnight (0:00)
 
 jobs:
   build:
