@@ -7,7 +7,7 @@ on:
       branches:
         - main
       paths:
-        - '.github/workflows/update_dataset' # Path to your workflow file
+        - '.github/workflows/update_dataset.yml' # Path to your workflow file
 
 
 jobs:
