@@ -35,5 +35,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           
       - name: Cleanup
-        uses: colpal/actions-clean@v1
-        if: ${{ always() }} # To ensure this step runs even when earlier steps fail
+        uses: asilbek99/action-cleanup@v1
