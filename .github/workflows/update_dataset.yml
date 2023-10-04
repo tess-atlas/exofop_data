@@ -40,5 +40,5 @@ jobs:
           # Set the GitHub token to enable pushing back to the repository
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           
-      - name: Cleanup
-        uses: asilbek99/action-cleanup@v1.0
+      # - name: Cleanup
+      #   uses: asilbek99/action-cleanup@v1.0
