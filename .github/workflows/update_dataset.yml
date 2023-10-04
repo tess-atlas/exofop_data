@@ -3,6 +3,12 @@ on:
   workflow_dispatch: # Triggered manually
   schedule:
     - cron: "0 0 * * 0" # Scheduled to run every Sunday at midnight (0:00)
+  push:
+      branches:
+        - main
+      paths:
+        - '.github/workflows/update_dataset' # Path to your workflow file
+
 
 jobs:
   build:
@@ -35,4 +41,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           
       - name: Cleanup
-        uses: asilbek99/action-cleanup@v1
+        uses: asilbek99/action-cleanup@v1.0
