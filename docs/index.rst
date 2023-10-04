@@ -9,6 +9,9 @@ TESS-Atlas ExoFOP Data
 This website contains the data from `ExoFOP`_ that is used in the `TESS-Atlas`_.
 The following table contains the list of TOIs analysed in the `TESS-Atlas`_. The full `ExoFOP`_ datafile can be found `here <exofop_data.csv>`.
 
+
+.. image:: ../data/exofop_data.png
+
 .. csv-filter::
    :file: ../data/exofop_data.csv
    :included_cols: 1
