@@ -1,0 +1,35 @@
+name: Update ExoFOP data
+on:
+  push:
+    branches:
+      - main 
+
+jobs:
+  build:
+    runs-on: nectar
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Source Runner's Environment
+        run: |
+          # Add any environment setup commands here
+          # For example, sourcing a virtual environment
+          # source /path/to/your/virtualenv/bin/activate
+          pwd
+          source ~/.bash_profile
+        shell: bash
+
+      - name: Run Your Command
+        run: python update_exofop_data.py
+        shell: bash
+
+      - name: Commit and Push Changes
+        run: |
+          git add data/*
+          git commit -m "Update TIC cache"
+          git push
+        env:
+          # Set the GitHub token to enable pushing back to the repository
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
