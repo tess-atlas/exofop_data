@@ -22,7 +22,7 @@ jobs:
         shell: bash
 
       - name: Run Your Command
-        run: python update_exofop_data.py
+        run: python update_exofop_data.py |& tee data/update.log
         shell: bash
 
       - name: Commit and Push Changes
@@ -33,3 +33,5 @@ jobs:
         env:
           # Set the GitHub token to enable pushing back to the repository
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: TooMuch4U/runner-post-cleanup@v2.1
