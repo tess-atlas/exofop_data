@@ -1,5 +1,5 @@
-ExoFOP TIC database has 7217 entries
+ExoFOP TIC database has 7236 entries
 Loaded cached TIC database with 7217 entries
-Checking 0/7217 TICs for lightcurve availability
-Checking TIC lightcurve availability: 0it [00:00, ?it/s]Checking TIC lightcurve availability: 0it [00:00, ?it/s]
-Updated from 7217 --> 7217 TICs
+Checking 14/7236 TICs for lightcurve availability
+Checking TIC lightcurve availability:   0%|          | 0/14 [00:00<?, ?it/s]Checking TIC lightcurve availability:   7%|▋         | 1/14 [00:16<03:40, 16.98s/it]Checking TIC lightcurve availability:  14%|█▍        | 2/14 [00:24<02:19, 11.60s/it]Checking TIC lightcurve availability:  21%|██▏       | 3/14 [00:25<01:14,  6.79s/it]Checking TIC lightcurve availability:  29%|██▊       | 4/14 [00:26<00:45,  4.55s/it]Checking TIC lightcurve availability:  36%|███▌      | 5/14 [00:37<00:58,  6.52s/it]Checking TIC lightcurve availability:  43%|████▎     | 6/14 [00:45<00:56,  7.05s/it]Checking TIC lightcurve availability:  50%|█████     | 7/14 [00:56<01:00,  8.58s/it]Checking TIC lightcurve availability:  57%|█████▋    | 8/14 [01:05<00:51,  8.56s/it]Checking TIC lightcurve availability:  64%|██████▍   | 9/14 [01:14<00:43,  8.65s/it]Checking TIC lightcurve availability:  71%|███████▏  | 10/14 [01:14<00:24,  6.23s/it]Checking TIC lightcurve availability:  79%|███████▊  | 11/14 [01:15<00:13,  4.56s/it]Checking TIC lightcurve availability:  86%|████████▌ | 12/14 [01:16<00:06,  3.41s/it]Checking TIC lightcurve availability:  93%|█████████▎| 13/14 [01:17<00:02,  2.61s/it]Checking TIC lightcurve availability: 100%|██████████| 14/14 [01:18<00:00,  2.06s/it]Checking TIC lightcurve availability: 100%|██████████| 14/14 [01:18<00:00,  5.58s/it]
+Updated from 7217 --> 7236 TICs
