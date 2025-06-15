@@ -1,5 +1,5 @@
 ExoFOP TIC database has 7655 entries
-Loaded cached TIC database with 7643 entries
-Checking 9/7655 TICs for lightcurve availability
-Checking TIC lightcurve availability:   0%|          | 0/9 [00:00<?, ?it/s]Checking TIC lightcurve availability:  11%|█         | 1/9 [00:08<01:11,  8.94s/it]Checking TIC lightcurve availability:  22%|██▏       | 2/9 [00:09<00:29,  4.20s/it]Checking TIC lightcurve availability:  33%|███▎      | 3/9 [00:10<00:16,  2.69s/it]Checking TIC lightcurve availability:  44%|████▍     | 4/9 [00:11<00:09,  1.97s/it]Checking TIC lightcurve availability:  56%|█████▌    | 5/9 [00:12<00:06,  1.58s/it]Checking TIC lightcurve availability:  67%|██████▋   | 6/9 [00:13<00:04,  1.36s/it]Checking TIC lightcurve availability:  78%|███████▊  | 7/9 [00:14<00:02,  1.39s/it]Checking TIC lightcurve availability:  89%|████████▉ | 8/9 [00:15<00:01,  1.24s/it]Checking TIC lightcurve availability: 100%|██████████| 9/9 [00:18<00:00,  1.57s/it]Checking TIC lightcurve availability: 100%|██████████| 9/9 [00:18<00:00,  2.01s/it]
-Updated from 7643 --> 7655 TICs
+Loaded cached TIC database with 7655 entries
+Checking 0/7655 TICs for lightcurve availability
+Checking TIC lightcurve availability: 0it [00:00, ?it/s]Checking TIC lightcurve availability: 0it [00:00, ?it/s]
+Updated from 7655 --> 7655 TICs
